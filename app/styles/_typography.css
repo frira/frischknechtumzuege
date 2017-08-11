@@ -1,0 +1,33 @@
+@import "_color.css";
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Responsive Typography */
+.content {
+    color: var(--color-text);
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+
+@media screen and (min-width: 20rem) {
+    .content {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .content {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
+
